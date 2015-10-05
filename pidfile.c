@@ -7,8 +7,8 @@
 
 int main()
 {
-pid_t pid;
-if (pid=fork())
+pid_t pid = fork();
+if (pid)
 {
 int i = getpid();
 char filename[15];
