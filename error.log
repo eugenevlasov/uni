@@ -1,18 +1,8 @@
-pidfile.c:11:8: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
-if (pid=fork())
-    ~~~^~~~~~~
-pidfile.c:11:8: note: place parentheses around the assignment to silence this warning
-if (pid=fork())
-       ^
-    (         )
-pidfile.c:11:8: note: use '==' to turn this assignment into an equality comparison
-if (pid=fork())
-       ^
-       ==
+
 pidfile.c:24:6: error: too few arguments to function call, expected 1, have 0
 wait();
 ~~~~ ^
 /usr/include/sys/wait.h:248:1: note: 'wait' declared here
 pid_t   wait(int *) __DARWIN_ALIAS_C(wait);
 ^
-1 warning and 1 error generated.
+1 error generated.
